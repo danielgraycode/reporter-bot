@@ -234,7 +234,7 @@ namespace Reporter_Bot
                      //Start-up and Login
                      discord.ExecuteAndWait(async () =>
                          {
-                             await discord.Connect("MjM5MzAwMzM1NDQzNzcxMzky.Cuyxkg.3EqF_8L2DRN5BEyrQKzAXRVOlA4", TokenType.Bot);
+                             await discord.Connect("nobottokenforyouguys", TokenType.Bot);
                              Console.Title = "Reporter-Bot";
                              Console.WriteLine("Reporter-Bot Running!");
 
